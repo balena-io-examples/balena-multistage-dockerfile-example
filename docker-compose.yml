@@ -1,0 +1,7 @@
+version: "2"
+
+services:
+  hello:
+    build:
+      context: .
+      target: prod
